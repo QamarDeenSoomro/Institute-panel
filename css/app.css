@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#profile_bell{
+    height: 30px;
+}
+.profile_name{
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+.profile_img{
+    height: 40px;
+    border-radius: 50%;
+}
+#populer_courses{
+    background-color: #F9F9F9;
+}
+.pc_loc_main{
+    margin-bottom: 2%;
+}
+.pop_courses_location{
+    display: inline;
+    color: #757575;
+    font-weight: bold;
+    /* margin-bottom: 10%; */
+}
+.pc_link_btn{
+    float: right;
+}
+.card-title{
+    color: #303030;
+}
