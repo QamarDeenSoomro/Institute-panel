@@ -45,12 +45,7 @@
     display: flex;
     align-items: center;
 }
-/* .card-body{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: space-between;
-} */
+
 .home2_main{
     position: relative;
 }
