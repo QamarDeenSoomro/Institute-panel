@@ -45,18 +45,40 @@
     display: flex;
     align-items: center;
 }
-.card-body{
+/* .card-body{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
+} */
+.home2_main{
+    position: relative;
 }
 .position_card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    
+    position: absolute;
+    padding: 2%;
+    top: 50%;
+    left: -20%;
     width: 40%;
+    z-index: 4;
+    background-color: white;
   }
   
   .position_card_cont {
-    padding: 2px 16px;
+    padding: 1%;
   }
+  .position_card>img{
+      width: 20%;
+  }
+  .reviews_card_img{
+      width: 40% !important;
+      height: 40% !important;
+      border-radius: 50% !important;
+  }
+
+.uc_event_card_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
