@@ -50,6 +50,9 @@
 .home2_main{
     position: relative;
 }
+.home_main_img{
+    width: 100% !important;
+}
 .position_card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     position: absolute;
@@ -79,4 +82,12 @@
     justify-content: space-between;
 }
 
-col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3
+@media screen and (max-width: 1200px) {
+    .position_card {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 65% !important;
+        left: 45% !important;
+    }
+  }
