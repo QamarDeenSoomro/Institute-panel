@@ -1,55 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/app.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
     <title>Institute Panel</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-              </form>
-              <div id="profile">
-                  <img src="./images/bell.png" alt="bell" id="profile_bell">
-                  <p class="profile_name">Quamer Ul Din</p>
-                  <img src="./images/male-profile.jpg" alt="Male" class="profile_img">
-              </div>
-            </div>
-          </nav>
-<div class="row">
-    <div class="col">
-        <h1 class="home1_head">Move Beyond The Limitation Of Gmits Classes</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel dolores facilis repudiandae non at distinctio nisi, beatae tempore adipisci repellat exercitationem cum labore.</p>
-    </div>
-    <div class="col">
-        <img src="./images/home1.png" alt="home1">
-    </div>
-</div>
-<div id="populer_courses">
-    <h2>Most Populer Courses</h2>
-    <div class="card" style="width: 18rem;">
-        <img src="./images/cardimg1.jpg" class="card-img-top" alt="card img">
-        <div class="card-body">
-          <p class="card-title">Lorem Ipsum Dolor Sit A...</p>
-          <div class="pc_loc_main">
-<img src="./images/location.png" alt="locate"> <p class="pop_courses_location">Burnside</p></div>
-<button type="button" class="btn btn-primary">Primary</button><button type="button" class="btn btn-link pc_link_btn">View Details</button>
-
-
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </form>
+          <div id="profile">
+            <img src="./images/bell.png" alt="bell" id="profile_bell" />
+            <p class="profile_name">Quamer Ul Din</p>
+            <img
+              src="./images/male-profile.jpg"
+              alt="Male"
+              class="profile_img"
+            />
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col">
+          <h1 class="home1_head">
+            Move Beyond The Limitation Of Gmits Classes
+          </h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+            dolores facilis repudiandae non at distinctio nisi, beatae tempore
+            adipisci repellat exercitationem cum labore.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/home1.png" alt="home1" />
         </div>
       </div>
+      <div id="populer_courses">
+        <h2>Most Populer Courses</h2>
+    <div class="row">
+    <div class="col-sm-3">
+        <div class="card">
+            <img
+              src="./images/cardimg1.jpg"
+              class="card-img-top"
+              alt="card img"
+            />
+            <div class="card-body">
+              <p class="card-title">Lorem Ipsum Dolor Sit A...</p>
+              <div class="pc_loc_main">
+                <img src="./images/location.png" alt="locate" />
+                <p class="pop_courses_location">Burnside</p>
+              </div>
+              <button type="button" class="btn btn-primary">$20.00</button
+              ><button type="button" class="btn btn-link pc_link_btn">
+                View Details
+              </button>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card">
+            <img
+              src="./images/cardimg1.jpg"
+              class="card-img-top"
+              alt="card img"
+            />
+            <div class="card-body">
+              <p class="card-title">Lorem Ipsum Dolor Sit A...</p>
+              <div class="pc_loc_main">
+                <img src="./images/location.png" alt="locate" />
+                <p class="pop_courses_location">Burnside</p>
+              </div>
+              <button type="button" class="btn btn-primary">$20.00</button
+              ><button type="button" class="btn btn-link pc_link_btn">
+                View Details
+              </button>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+          <img
+            src="./images/cardimg1.jpg"
+            class="card-img-top"
+            alt="card img"
+          />
+          <div class="card-body">
+            <p class="card-title">Lorem Ipsum Dolor Sit A...</p>
+            <div class="pc_loc_main">
+              <img src="./images/location.png" alt="locate" />
+              <p class="pop_courses_location">Burnside</p>
+            </div>
+            <button type="button" class="btn btn-primary">$20.00</button
+            ><button type="button" class="btn btn-link pc_link_btn">
+              View Details
+            </button>
+          </div>
+        </div>
+  </div>
+    <div class="col-sm-3">
+        <div class="card">
+            <img
+              src="./images/cardimg1.jpg"
+              class="card-img-top"
+              alt="card img"
+            />
+            <div class="card-body">
+              <p class="card-title">Lorem Ipsum Dolor Sit A...</p>
+              <div class="pc_loc_main">
+                <img src="./images/location.png" alt="locate" />
+                <p class="pop_courses_location">Burnside</p>
+              </div>
+              <button type="button" class="btn btn-primary">$20.00</button
+              ><button type="button" class="btn btn-link pc_link_btn">
+                View Details
+              </button>
+            </div>
+          </div>
+    </div>
+</div>
+    <div id="pop_tutors">
+      <h2>Most Popular Tutors</h2>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card mb-3 pt_card">
+            <div class="card-body">
+              <img
+              src="./images/cardimg1.jpg"
+              class="card-img-top"
+              alt="card img"
+            />
+              <p class="fs-4">Melina Bauer</p>
+              <p class="pop_courses_location">xyz@gmail.com</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <button type="button" class="btn btn-light">View Details</button>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card mb-3 pt_card">
+          <div class="card-body">
+            <img
+            src="./images/cardimg1.jpg"
+            class="card-img-top"
+            alt="card img"
+          />
+            <p class="fs-4">Melina Bauer</p>
+            <p class="pop_courses_location">xyz@gmail.com</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button type="button" class="btn btn-light">View Details</button>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card mb-3 pt_card">
+        <div class="card-body">
+          <img
+          src="./images/cardimg1.jpg"
+          class="card-img-top"
+          alt="card img"
+        />
+          <p class="fs-4">Melina Bauer</p>
+          <p class="pop_courses_location">xyz@gmail.com</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <button type="button" class="btn btn-light">View Details</button>
+        </div>
+      </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card mb-3 pt_card">
+      <div class="card-body">
+        <img
+        src="./images/cardimg1.jpg"
+        class="card-img-top"
+        alt="card img"
+      />
+        <p class="fs-4">Melina Bauer</p>
+        <p class="pop_courses_location">xyz@gmail.com</p>
+      </div>
+      <div class="card-footer bg-transparent">
+        <button type="button" class="btn btn-light">View Details</button>
+      </div>
+    </div>
+</div>
+      </div>
+    </div>
+<div id="About_us">
+  <div class="row">
+    <div class="sm-col">
+      <h2>Get Know About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus asperiores nam facere numquam eum, sequi animi rerum quisquam ab hic, odit nemo esse, soluta omnis! Tenetur vero dolor nobis. Illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis similique modi vero harum fuga iure doloribus quam, commodi at molestias quisquam sapiente voluptatum magnam excepturi necessitatibus fugit. Doloremque, aspernatur laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit consequatur odio accusamus quidem corrupti cumque nulla similique enim nemo! Natus aperiam necessitatibus perferendis suscipit nam ab eligendi magni vitae.</p>
+    </div>
+    <div class="sm-col">
+      <img src="./images/home2.png" alt="Home2">
+      <div class="position_card">
+        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+        <div class="position_card_cont">
+          <h4><b>John Doe</b></h4> 
+          <p>Architect & Engineer</p> 
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </div>
 
-
-</div>
-</body>
+<!-- Main Div Ends -->
+    </div>
+  </body>
 </html>

@@ -29,7 +29,7 @@
 .pop_courses_location{
     display: inline;
     color: #757575;
-    font-weight: bold;
+    font-size: 19px;
     /* margin-bottom: 10%; */
 }
 .pc_link_btn{
@@ -38,3 +38,25 @@
 .card-title{
     color: #303030;
 }
+.card{
+    margin-bottom: 5%;
+}
+.pt_card{
+    display: flex;
+    align-items: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.position_card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+    width: 40%;
+  }
+  
+  .position_card_cont {
+    padding: 2px 16px;
+  }
